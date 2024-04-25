@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Section = () => {
   return (
     <>
-      <section className="flex flex-col justify-center px-3 mx-3 mt-10 sm:mt">
-        <div className="flex flex-col md:flex-row items-center justify-center ">
-          <div className="text-center flex flex-col items-center mx-2">
+      <section className="flex flex-col justify-center px-3 mx-3 mt-10  ">
+        <div className="flex flex-col gap-3 sm:flex-row md:flex-row items-center justify-center ">
+          <div className="text-center flex flex-col items-center">
             <h1 className="font-MiFuente font-bold text-2xl md:text-5xl text-oscuro tracking-wider text-transparent: uppercase">
               Roberto Rivas A.
             </h1>
@@ -144,7 +144,7 @@ const Section = () => {
 
           </div>
           <img
-            className=" w-56 sm:w-64 lg:w-72: md:w-80 mx-8 mt-4 sm:mt-0 lg:mt-0 md:mt-0"
+            className=" w-56 sm:w-64 lg:w-72: md:w-80  mt-4 sm:mt-0 lg:mt-0 md:mt-0"
             src="/images/Seccion.png"
             alt="ImagenSeccion"
           />
