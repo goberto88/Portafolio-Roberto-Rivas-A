@@ -3,41 +3,49 @@ import React from "react";
 const Info = () => {
   return (
     <>
-      <div className="  flex flex-col sm:flex-col md:flex-row  gap-5 mb-20 p-4 mx-10 justify-center  items-center  ">
+      <div className="  flex flex-col sm:flex-col md:flex-row  gap-5 mb-20 p-4 mx-10 justify-center items-center  md:items-start  ">
         <div className="flex flex-col  px-0 md:px-20  ">
-        <article className="text-justify font-Parrafo leading-loose  list-disc list-inside mt-2  text-oscuro ">
-          <p>
-            ¡Hola! Soy Roberto, un profesional con más de 10 años de experiencia
-            en Administración, Recursos Humanos y Prevención de Riesgos.
-            Actualmente, estoy explorando el emocionante mundo del{" "}
-            <strong>Desarrollo Frontend</strong>.
-          </p>
-          <p>
-            Si bien soy nuevo en el campo del desarrollo frontend, aporto una
-            sólida base de habilidades transferibles derivadas de mis
-            experiencias previas. Destaco por mi ética de trabajo sobresaliente,
-            habilidades de liderazgo probadas y capacidad para colaborar
-            efectivamente en equipo.
-          </p>
-          <p>
-            Licenciado en Relaciones Industriales, egresado de la de la
-            Universidad de Carabobo en el año 2013, Certificado en{" "}
-            <strong>Desarrollo Web, JS y React JS</strong>.
-          </p>
-          <p>
-            Mi objetivo es combinar mis habilidades forjadas en mi trayectoria
-            con mis nuevas habilidades en desarrollo web para contribuir al
-            éxito de futuros proyectos y retos que se presenten.
-          </p>
-          <p>
-            ¡Gracias por visitar mi portafolio! Te invito a ver mis proyectos
-            para tener una idea de mi trabajo.
-          </p>
+          <article className="text-justify font-Parrafo leading-loose  list-disc list-inside mt-2  text-oscuro ">
+            <p>
+              ¡Hola! Soy Roberto, un profesional con más de 10 años de
+              experiencia en Administración y Recursos Humanos. Actualmente,
+              estoy explorando el emocionante mundo del{" "}
+              <strong>Desarrollo Frontend</strong>.
+            </p>
+            <br />
+            <p>
+              Cuento con una sólida base en{" "} <strong>JavaScript, CSS y HTML.</strong> Durante mi
+              formación, me especialicé en el uso de{""} <strong>React.js</strong> para crear
+              aplicaciones web interactivas y eficientes.
+            </p>
+            <br />
+            <p >
+              Durante un buen periodo he acumulado experiencia a través de
+              proyectos personales y en proyectos freelance. Tengo una
+              comprensión profunda de los principios de React, incluyendo el
+              manejo del estado, los hooks, los componentes funcionales y de
+              clase, y el ciclo de vida de los componentes.
+            </p>
+            <br />
+            <p >
+              Además de React, cuento con experiencia en diversas tecnologías y
+              herramientas de front-end, incluyendo{" "} <strong>Bootstrap y Tailwind CSS </strong>
+              para el diseño. Asimismo, poseo habilidades en el manejo de
+              herramientas de control de versiones como Git, y estoy
+              familiarizado con entornos de desarrollo integrados (IDEs) como{" "}
+              <strong>Visual Studio Code</strong>.
+            </p>
+            <br/>
+            <p>
+              ¡Gracias por visitar mi portafolio! Te invito a ver mis proyectos
+              para tener una idea de mi trabajo.
+            </p>
+            <br />
           </article>
-          
+
           <div className="flex flex-col items-center md:items-start mt-4 ">
-          <h2 className="font-MiFuente">Skills</h2>
-        
+            <h2 className="font-MiFuente">Skills</h2>
+
             <div className="flex  max-w-60 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -142,21 +150,14 @@ const Info = () => {
               </svg>
             </div>
           </div>
+        </div>
 
-
-          </div>
-        
-        
-        
-        
-          <img
-            src="/images/ImageInfo.png"
-            alt="ImgInfo"
-            className="w-60  sm:w-64 lg:w-68: md:w-96 mx-8 mt-4 sm:mt-0 lg:mt-0 md:mt-0"
-          />
-        
-      
-       </div>
+        <img
+          src="/images/ImageInfo.png"
+          alt="ImgInfo"
+          className="w-60  sm:w-64 lg:w-68: md:w-96 mx-8 mt-4 sm:mt-0 md:mt-0 lg:mt-0 "
+        />
+      </div>
     </>
   );
 };
